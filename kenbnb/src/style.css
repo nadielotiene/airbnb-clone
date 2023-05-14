@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* $grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+); */
+
+/*~~~~~~~~~~~~~~~Navbar~~~~~~~~~~~~~~~*/
+
+nav, .hero-section {
+    position: fixed;
+    /* left: 0; */
+    top: 0;
+    background-color: #FFF;
+    z-index: 1;
+ }
+
+.nav-div {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+
+.logo-span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+    width: 35px;
+}
+
+.nav-title {
+    color: #FF595F;
+    font-size: 22px;
+    padding: 5px;
+}
+
+/*~~~*/
+
+.search-btn {
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFF;
+    border: #DDD solid 1px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    margin-left: 15px;
+    width: 30px;
+}
+
+/*~~~*/
+
+.user-span {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.renter-btn, .globe-btn, .user-menu-btn {
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+    padding: 8px;
+    margin-left: 5px;
+}
+
+.user-menu-btn {
+    background-color: #FFF;
+    border: #DDD solid 1px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.user {
+    width: 30px;
+}
+
+/*~~~~~~~~~~~~~~~Hero~~~~~~~~~~~~~~~*/
+
+.hero-section {
+    border-top: #DDD solid 1px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.hero-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95px;
+    padding: 20px;
+}
+
+.rent-type, .icons-name {
+    cursor: pointer;
+    /* background-color: crimson; */
+
+}
+
+.rent-type {
+    height: 30px;
+    width: 30px;
+}
+
+.icons-name {
+    font-size: 12px;
+    padding: 4px;
+}
+
+/* .filters-icon {
+    width: 25px;
+} */
+
+/* a.icons-name:hover {
+    border-bottom: #DDD solid 2px;
+
+} */
+
+/*~~~~~~~~~~~~~~~Card~~~~~~~~~~~~~~~*/
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 180px 20px 50px 20px;
+}
+
+.card-div {
+    border-radius: 12px;
+    /* box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3); */
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    padding: 0.2em;
+}
+
+.place-photo {
+    border-radius: 12px;
+    cursor: pointer;
+    object-fit: cover;
+    height: 270px;
+    width: 270px;
+}
+
+.card-favorite {
+    cursor: pointer;
+    width: 25px;
+    position: relative;
+    bottom: 260px;
+    left: 230px;
+}
+
+.title-span {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dates, .map-location {
+    color: grey;
+}
+
+.price-span {
+    font-weight: 600;
+}
+
+/*~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~*/
+
+footer {
+    position: fixed;
+    /* left: 0; */
+    bottom: 0;
+    background-color: #FFF;
+}
+
+.footer-div {
+    border-top: #DDD solid 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+    height: 50px;
+}
+
+.footer-info-right {
+    font-weight: 600;
+    display: flex;
+    margin-left: 25px;
+}
+
+.globe {
+    height: 18px;
+    width: 18px;
+    margin: 0 5px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
