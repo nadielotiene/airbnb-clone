@@ -11,7 +11,7 @@ export default function Footer() {
             <small>
                 <a className="footer-info-right" href="#">
                     <img 
-                        className="globe" src="./public/globe.png" alt="globe" 
+                        className="globe" src="/globe.png" alt="globe" 
                     />
                     English (US) • $ USD • Support & resources
                 </a>

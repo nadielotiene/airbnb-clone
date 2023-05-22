@@ -18,7 +18,7 @@ export default function Hero(props) {
 
             // </span>
         //     <button className="filters-btn">
-        //         <img className="filters-icon" src="./public/filters.png" alt="filters-icon" />
+        //         <img className="filters-icon" src="/filters.png" alt="filters-icon" />
         //         Filters
         //     </button>
         // </>

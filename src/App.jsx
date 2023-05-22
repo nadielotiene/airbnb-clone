@@ -1,10 +1,10 @@
 import React from "react"
 import iconData from "./iconData"
 import data from "./data"
-import Navbar from "./components/Navbar.jsx"
-import Hero from "./components/Hero.jsx"
-import Card from "./components/Card.jsx"
-import Footer from "./components/Footer.jsx"
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import Card from "./components/Card"
+import Footer from "./components/Footer"
 import { useState } from 'react'
 
 export default function App() {
