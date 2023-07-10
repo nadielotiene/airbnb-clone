@@ -2,71 +2,71 @@ export default [
     {
         id: "1",
         alt: "Rooms",
-        source: "/rooms.png"
+        source: "./public/rooms.png"
     },
     {
         id: "2",
         alt: "Cabins",
-        source: "/cabins.png"
+        source: "./public/cabins.png"
     },
     {
         id: "3",
         alt: "Beachfront",
-        source: "/beachfront.png"
+        source: "./public/beachfront.png"
     },
     {
         id: "4",
         alt: "Treehouses",
-        source: "/treehouses.png"
+        source: "./public/treehouses.png"
     },
     {
         id: "5",
         alt: "Lakefront",
-        source: "/lakefront.png"
+        source: "./public/lakefront.png"
     },
     {
         id: "6",
         alt: "OMG!",
-        source: "/omg.png"
+        source: "./public/omg.png"
     },
     {
         id: "7",
         alt: "Mansions",
-        source: "/mansions.png"
+        source: "./public/mansions.png"
     },
     {
         id: "8",
         alt: "Trending",
-        source: "/trending.png"
+        source: "./public/trending.png"
     },
     {
         id: "9",
         alt: "Pools",
-        source: "/pools.png"
+        source: "./public/pools.png"
     },
     {
         id: "10",
         alt: "Countryside",
-        source: "/countryside.png"
+        source: "./public/countryside.png"
     },
     {
         id: "11",
         alt: "Boats",
-        source: "/boats.png"
+        source: "./public/boats.png"
     },
     {
         id: "12",
         alt: "Camping",
-        source: "/camping.png"
+        source: "./public/camping.png"
     },
     {
         id: "13",
         alt: "Castles",
-        source: "/castles.png"
+        source: "./public/castles.png"
     },
     {
         id: "14",
         alt: "Igloos",
-        source: "/igloos.png"
+        source: "./public/igloos.png"
     },
 ]
